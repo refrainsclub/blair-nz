@@ -3,3 +3,15 @@
     <p>Contact</p>
   </main>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Blair | Contact",
+  meta: [
+    {
+      name: "description",
+      content: "Contact James Blair",
+    },
+  ],
+});
+</script>
