@@ -14,4 +14,18 @@ export default defineNuxtConfig({
     },
   },
   pages: true,
+  app: {
+    head: {
+      title: "Blair",
+      meta: [
+        {
+          name: "description",
+          content: "James Blair is a software developer from New Zealand",
+        },
+      ],
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
 });
