@@ -13,5 +13,8 @@ useHead({
       content: "View James Blair's projects",
     },
   ],
+  htmlAttrs: {
+    lang: "en",
+  },
 });
 </script>

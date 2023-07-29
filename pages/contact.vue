@@ -13,5 +13,8 @@ useHead({
       content: "Contact James Blair",
     },
   ],
+  htmlAttrs: {
+    lang: "en",
+  },
 });
 </script>

@@ -13,5 +13,8 @@ useHead({
       content: "James Blair is a software developer from New Zealand",
     },
   ],
+  htmlAttrs: {
+    lang: "en",
+  },
 });
 </script>
